@@ -1,9 +1,7 @@
 # python-kafka-event-driven-architecture
 scalable event driven architecture in python using apache kafka 
-### Apache kafka is distributed event store and processing engine, written in java and scala.
-
-### Kafka was originally developed at LinkedIn, and was subsequently open sourced in early 2011 
-
+### Apache kafka is distributed event store and processing engine, written in java and scala.Kafka was originally developed at LinkedIn, and was subsequently open sourced in early 2011 
+#####
 ⋅⋅1. confluent is a cloud native kafka service vendor providing deployments across 3 major cloud vendors - google cloud, aws and azure.
 ![Confluent Kafka](/images//image2.png?raw=true "MSK")
 ⋅⋅2. A Cool tutorial on python 
