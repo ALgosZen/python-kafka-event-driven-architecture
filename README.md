@@ -7,7 +7,7 @@ scalable event driven architecture in python using apache kafka
 > confluent is a cloud native kafka service vendor providing deployments across 3 major cloud vendors - google cloud, aws and azure.
 ![Confluent Kafka](/images//image2.png?raw=true "MSK")
 > A Cool tutorial on python 
-[This is an external link to conflient tutorials](https://developer.confluent.io/get-started/python/){:target="_blank"}
+[This is an external link to conflient tutorials](https://developer.confluent.io/get-started/python/)
 
 
 > Amazon MSK makes it easy to ingest and process streaming data in real time with fully managed Apache Kafka
@@ -48,6 +48,9 @@ python consumer.py getting_started.ini
 
 8. The consumer will wait indefinitely for new events. You can kill the process or continue streaming messages using producer.
 
-9. this architecture is scalable 
+kafka event driven  architecture is scalable 
+
+** the end ** 
+
 
 
