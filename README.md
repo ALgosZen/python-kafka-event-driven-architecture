@@ -13,7 +13,23 @@ scalable event driven architecture in python using apache kafka
 > Amazon MSK makes it easy to ingest and process streaming data in real time with fully managed Apache Kafka
 ![Amazon MSK](/images//image1.png?raw=true "MSK")
 
-> For this exercise , lets run kafka locally using docker. up the docker compose once repo is cloned locally using following command
+> For this exercise , lets run kafka locally using docker. 
+1. create docker compose file or clone repo
+2. make sure docker is running and run the following command to start the kafka service 
 ```
 docker compose up -d
+```
+3. you should now find kafka and zookeeper running 
+```
+docker ps
+```
+4. run the following command to create kafka topic named _purchases_
+(if you are using confluent or aws for kafka service or running kafka locally, you dont need this step. instead create topic using gui interface provided)
+```
+docker compose exec broker \
+  kafka-topics --create \
+    --topic purchases \
+    --bootstrap-server localhost:9092 \
+    --replication-factor 1 \
+    --partitions 1
 ```
