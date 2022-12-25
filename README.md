@@ -23,7 +23,7 @@ docker compose up -d
 ```
 docker ps
 ```
-4. run the following command to create kafka topic named _purchases_
+4. run the following command to create kafka topic named **purchases**
 (if you are using confluent or aws for kafka service or running kafka locally, you dont need this step. instead create topic using gui interface provided)
 ```
 docker compose exec broker \
@@ -33,3 +33,21 @@ docker compose exec broker \
     --replication-factor 1 \
     --partitions 1
 ```
+5. now create producer.py . you may have to install python package confluent_kafka using the command
+```
+pip install confluent_kafka
+```
+
+6. run producer py to send some events 
+```
+python producer.py getting_started.ini
+```
+7. run the consumer 
+```
+python consumer.py getting_started.ini
+
+8. The consumer will wait indefinitely for new events. You can kill the process or continue streaming messages using producer.
+
+9. this architecture is scalable 
+
+
