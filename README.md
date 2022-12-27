@@ -27,6 +27,8 @@ docker compose up -d
 ```
 docker ps
 ```
+![Running Containers](/images//image7.png?raw=true "containers")
+
 4. run the following command to create kafka topic named **purchases**
 (if you are using confluent or aws for kafka service or running kafka locally, you dont need this step. instead create topic using gui interface provided)
 ```
