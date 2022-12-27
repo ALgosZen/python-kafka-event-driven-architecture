@@ -30,7 +30,7 @@ docker ps
 ![Running Containers](/images//image7.png?raw=true "containers")
 
 4. run the following command to create kafka topic named **purchases**
-(if you are using confluent or aws for kafka service or running kafka locally, you dont need this step. instead create topic using gui interface provided)
+or code to create topic as shown in transactions.py , KafkaProducer.send can create one for you (avoid hardcode values).
 ```
 docker compose exec broker \
   kafka-topics --create \
