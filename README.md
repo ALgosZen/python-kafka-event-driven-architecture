@@ -17,7 +17,7 @@ sample ordering app event driven architecture
 > Amazon MSK makes it easy to ingest and process streaming data in real time with fully managed Apache Kafka
 ![Amazon MSK](/images//image1.png?raw=true "MSK")
 
-> For this exercise , lets run kafka locally using docker. 
+> For this simple exercise we dont have to sign up for AWS or Confluent , lets run kafka locally using docker. 
 1. create docker compose file or clone repo
 2. make sure docker is running and run the following command to start the kafka service 
 ```
