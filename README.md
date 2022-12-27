@@ -11,7 +11,7 @@ scalable event driven architecture in python using apache kafka
 > A Cool tutorial on python 
 [This is an external link to conflient tutorials](https://developer.confluent.io/get-started/python/)
 
-sample ordering system system using event driven architecture
+sample ordering app event driven architecture
 ![Ordering Flow](/images//image6.png?raw=true "Orders")
 
 > Amazon MSK makes it easy to ingest and process streaming data in real time with fully managed Apache Kafka
